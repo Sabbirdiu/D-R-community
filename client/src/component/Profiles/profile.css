@@ -1,0 +1,54 @@
+.profile-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 1rem;
+}
+.profile-card img {
+  width: 100%;
+}
+.profile-btn {
+  display: inline-block;
+  /* background: var(--light-color); */
+  background-color: green;
+  color: gray;
+  padding: 0.4rem 1.3rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: opacity 0.2s ease-in;
+  outline: none;
+  margin-bottom: 0.5rem;
+}
+
+.profile-card title {
+  color: grey;
+  font-size: 18px;
+}
+
+.probutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.profile-card a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.profile-card button:hover,
+a:hover {
+  opacity: 0.7;
+}

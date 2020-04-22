@@ -1,0 +1,62 @@
+.body {
+  background: grey;
+  line-height: 1.8;
+  color: honeydew;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.containerl {
+  margin: 80px auto 0 auto;
+  max-width: 800px;
+  padding: 10px;
+}
+.form-wrap {
+  background: whitesmoke;
+  color: #333;
+  padding: 25px 15px;
+}
+.form-wrap h1,
+p {
+  text-align: center;
+}
+.form-wrap .form-group {
+  margin-top: 15px;
+}
+.form-wrap .form-group label {
+  display: block;
+  color: #666;
+}
+.form-wrap .form-group input {
+  width: 98%;
+  padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+}
+.form-wrap button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background: #49c1a2;
+  color: #fff;
+  cursor: pointer;
+}
+.form-wrap button:hover {
+  background: #37a08e;
+}
+
+.form-wrap .bottom-text {
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #49c1a2;
+}
